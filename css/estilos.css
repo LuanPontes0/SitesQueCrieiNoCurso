@@ -1,0 +1,136 @@
+/*Gerais*/
+
+a {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(232, 232, 232);
+}
+
+
+/*cabecalho*/
+
+.cabecalho-container {
+    text-align: center;
+    padding: 10px;
+    background-color: #f7b600;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: #fff;
+}
+
+.menu-cabecalho a,
+.menu-cabecalho a:visited {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.menu-cabecalho a:hover {
+    transition: 0.5s;
+    background-color: #fff;
+    color: #f7b600;
+}
+
+.menu-cabecalho {
+    margin: 10px;
+}
+
+
+/*Area principal*/
+
+.area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.postagem h2 {
+    color: #f7b600;
+}
+
+.postagem span {
+    font-size: 0.8em;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.area-postagens {
+    width: 660px;
+    float: left;
+}
+
+.postagem {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+
+/*menu-lateral*/
+
+.menu-lateral {
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral {
+    border: 10px solid #fff;
+    background-color: #ccc;
+}
+
+.conteudo-lateral h3,
+.categoria-lateral h3 {
+    color: rgb(81, 80, 80);
+    background-color: #ccc;
+    text-align: center;
+    padding: 3px;
+}
+
+.postagem-lateral {
+    font-size: 0.93em;
+    border-bottom: 2px solid #ccc;
+    padding: 7px;
+    background-color: #fff;
+    text-align: left;
+    color: rgb(104, 104, 104);
+}
+
+.categoria-lateral {
+    background-color: #fff;
+    border: 10px solid #fff;
+    margin-top: 15px;
+}
+
+.categoria-lateral .categoria-conteudo a:link {
+    display: block;
+}
+
+#rodape {
+    padding: 10px;
+    clear: both;
+    background-color: #ccc;
+    text-align: center;
+}
