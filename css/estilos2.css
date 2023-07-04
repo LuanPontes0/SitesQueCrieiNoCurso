@@ -1,0 +1,50 @@
+body {
+    background: url(../images/fundo.jpg) left top;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    background-color: rgba(249, 249, 249, 0.487);
+    margin: 9em auto;
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+}
+
+img.imagem {
+    margin-top: -80px;
+    width: 120px;
+    height: 120px;
+}
+
+input {
+    font-size: 1.2em;
+    border: none;
+    margin-top: 20px;
+    padding-left: 2.5em;
+    width: 90%;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.email {
+    margin-top: 30px;
+    background-image: url(../images/icone-usuario.png);
+}
+
+input.senha {
+    background-image: url(../images/icone-cadeado.png);
+}
+
+input.enviar {
+    font-size: 1.2em;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #fe9602;
+    border: 2px solid #de801a;
+    width: 98%;
+}
